@@ -1,5 +1,5 @@
 import logo from "@/assets/logo.png";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -24,12 +24,20 @@ const Navbar = () => {
           ))}
         </div>
 
-        <a
-          href="#contact"
-          className="hidden md:inline-flex rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground hover:bg-accent/90 transition-colors"
-        >
-          Get a Quote
-        </a>
+        <div className="hidden md:flex items-center gap-3">
+          <a
+            href="tel:3109906999"
+            className="inline-flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+          >
+            <Phone className="h-4 w-4" /> (310) 990-6999
+          </a>
+          <a
+            href="#contact"
+            className="inline-flex rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground hover:bg-accent/90 transition-colors"
+          >
+            Free Estimate
+          </a>
+        </div>
 
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -52,10 +60,16 @@ const Navbar = () => {
             </a>
           ))}
           <a
+            href="tel:3109906999"
+            className="mt-2 block rounded-lg border border-primary-foreground/20 px-5 py-2.5 text-center text-sm font-semibold text-primary-foreground"
+          >
+            <Phone className="h-4 w-4 inline mr-2" /> (310) 990-6999
+          </a>
+          <a
             href="#contact"
             className="mt-2 block rounded-lg bg-accent px-5 py-2.5 text-center text-sm font-semibold text-accent-foreground"
           >
-            Get a Quote
+            Free Estimate
           </a>
         </div>
       )}
