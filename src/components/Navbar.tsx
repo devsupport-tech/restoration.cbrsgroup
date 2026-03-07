@@ -91,7 +91,7 @@ const Navbar = () => {
                 key={link.label}
                 to={link.href}
                 onClick={() => handleNavClick(link.href)}
-                className="px-4 py-3 text-sm font-medium text-primary-foreground/70 hover:text-primary-foreground hover:bg-primary-foreground/5 transition-colors"
+                className="px-4 py-3 text-sm font-medium text-accent-foreground/80 hover:text-accent-foreground hover:bg-accent-foreground/10 transition-colors"
               >
                 {link.label}
               </Link>
