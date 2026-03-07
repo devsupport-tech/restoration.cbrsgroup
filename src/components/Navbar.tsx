@@ -41,15 +41,15 @@ const Navbar = () => {
         scrolled ? "shadow-lg" : ""
       }`}
     >
-      {/* Top bar — logo, tagline, phone */}
-      <div className="bg-primary">
+      {/* Top bar — white background with logo, tagline, phone */}
+      <div className="bg-background">
         <div className="container mx-auto flex items-center justify-between py-3 px-4">
           <Link to="/" className="flex items-center shrink-0">
             <img src={logo} alt="Veterans Elite Contractors LLC" className="h-14" />
           </Link>
 
           <div className="hidden lg:flex flex-col items-center text-center">
-            <span className="text-primary-foreground font-heading text-lg font-semibold tracking-wide">
+            <span className="text-foreground font-heading text-lg font-semibold tracking-wide">
               Veteran-Owned Restoration &amp; Construction
             </span>
             <span className="text-accent text-sm font-semibold">
@@ -59,7 +59,7 @@ const Navbar = () => {
 
           <div className="hidden md:flex items-center gap-4">
             <div className="text-right">
-              <span className="block text-primary-foreground/70 text-xs">
+              <span className="block text-muted-foreground text-xs">
                 Call Now for a Free Estimate
               </span>
               <a
@@ -74,7 +74,7 @@ const Navbar = () => {
 
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="md:hidden text-primary-foreground"
+            className="md:hidden text-foreground"
             aria-label="Toggle menu"
           >
             {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -82,8 +82,8 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Bottom bar — navigation links */}
-      <div className="hidden md:block bg-primary/90 backdrop-blur-sm border-t border-primary-foreground/10">
+      {/* Bottom bar — dark navy navigation links */}
+      <div className="hidden md:block bg-primary border-t border-border">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center gap-1">
             {navLinks.map((link) => (
@@ -102,7 +102,7 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-primary border-t border-primary-foreground/10">
+        <div className="md:hidden bg-background border-t border-border">
           <div className="px-4 py-2">
             <p className="text-accent text-xs font-semibold mb-2">
               Serving Del Mar &amp; San Diego County
@@ -111,7 +111,7 @@ const Navbar = () => {
               <Link
                 key={link.label}
                 to={link.href}
-                className="block py-2.5 text-sm text-primary-foreground/70 hover:text-primary-foreground border-b border-primary-foreground/5"
+                className="block py-2.5 text-sm text-foreground/70 hover:text-foreground border-b border-border/50"
                 onClick={() => handleNavClick(link.href)}
               >
                 {link.label}
