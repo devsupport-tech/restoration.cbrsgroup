@@ -82,8 +82,8 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Bottom bar — dark navy navigation links */}
-      <div className="hidden md:block bg-primary border-t border-border">
+      {/* Bottom bar — red navigation links */}
+      <div className="hidden md:block bg-accent border-t border-border">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center gap-1">
             {navLinks.map((link) => (
