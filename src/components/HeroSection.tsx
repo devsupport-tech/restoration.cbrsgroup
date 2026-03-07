@@ -8,14 +8,14 @@ const HeroSection = () => {
         <div className="space-y-6">
           <div className="inline-flex items-center gap-2 rounded-full bg-primary-foreground/10 px-4 py-1.5 text-sm text-primary-foreground/80">
             <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-            Premier Construction Company
+            Veteran-Owned Construction Company
           </div>
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-primary-foreground">
             Building excellence<br />
             <span className="text-accent">One project</span> at a time
           </h1>
           <p className="text-primary-foreground/60 max-w-md">
-            Delivering high-quality commercial construction with precision, safety, and innovation since 2001.
+            Veterans Elite Contractors LLC delivers high-quality commercial construction with precision, discipline, and excellence.
           </p>
           <div className="flex flex-wrap gap-4">
             <a
