@@ -1,4 +1,4 @@
-import { Building2 } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -6,12 +6,11 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 text-primary-foreground mb-4">
-              <Building2 className="h-5 w-5 text-accent" />
-              <span className="font-heading font-bold">EliteBuilders</span>
+            <div className="mb-4">
+              <img src={logo} alt="Veterans Elite Contractors LLC" className="h-12" />
             </div>
             <p className="text-sm text-primary-foreground/50">
-              Premier commercial construction delivering excellence since 2001.
+              Veteran-owned commercial construction delivering excellence with discipline and precision.
             </p>
           </div>
 
@@ -37,7 +36,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/10 pt-6 text-center">
           <p className="text-xs text-primary-foreground/40">
-            © 2026 Elite Builders Inc. All rights reserved.
+            © 2026 Veterans Elite Contractors LLC. All rights reserved.
           </p>
         </div>
       </div>

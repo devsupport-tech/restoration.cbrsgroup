@@ -14,7 +14,7 @@ const TrustSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why businesses trust elite builders inc.
+              Why businesses trust Veterans Elite Contractors.
             </h2>
             <p className="text-muted-foreground">
               97% of our clients recommend us — here's why we're the trusted choice for commercial construction.

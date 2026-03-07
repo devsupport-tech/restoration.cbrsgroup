@@ -1,4 +1,5 @@
-import { Building2, Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -6,10 +7,9 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-sm">
-      <div className="container mx-auto flex items-center justify-between py-4 px-4">
-        <a href="#" className="flex items-center gap-2 text-primary-foreground">
-          <Building2 className="h-6 w-6 text-accent" />
-          <span className="font-heading text-lg font-bold">EliteBuilders</span>
+      <div className="container mx-auto flex items-center justify-between py-3 px-4">
+        <a href="#" className="flex items-center">
+          <img src={logo} alt="Veterans Elite Contractors LLC" className="h-12" />
         </a>
 
         <div className="hidden md:flex items-center gap-8">
