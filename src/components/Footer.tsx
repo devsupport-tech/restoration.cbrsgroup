@@ -12,7 +12,7 @@ const Footer = () => {
               <img src={logo} alt="CBRS Group Restorations" className="h-12" />
             </div>
             <p className="text-sm text-primary-foreground/50 mb-3">
-              Professional restoration services serving the Greater Houston area.
+              Your full-service restoration contractor. From emergency response to complete rebuilds, we guide you through every step of the restoration process.
             </p>
           </div>
 

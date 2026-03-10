@@ -1,12 +1,12 @@
-import { ShieldCheck, Clock, Award, Droplets, Phone, MapPin } from "lucide-react";
+import { ShieldCheck, Clock, Award, FileText, Phone, MapPin } from "lucide-react";
 
 const reasons = [
-  { icon: ShieldCheck, title: "Licensed & Insured", desc: "Fully licensed and insured for your protection and peace of mind." },
-  { icon: Clock, title: "24/7 Emergency Response", desc: "Available around the clock for urgent water and fire damage needs." },
-  { icon: Award, title: "Industry Expertise", desc: "Years of restoration experience with proven systems and processes." },
-  { icon: Droplets, title: "Water Damage Specialists", desc: "From burst pipes to floods — fast extraction, drying, and rebuild." },
-  { icon: Phone, title: "One Call Does It All", desc: "Restoration, roofing, HVAC, and electrical — all under one roof." },
-  { icon: MapPin, title: "Houston Based", desc: "Proudly serving the Greater Houston area and surrounding communities." },
+  { icon: ShieldCheck, title: "Licensed & Insured", desc: "Fully licensed general contractor with comprehensive insurance coverage for your protection." },
+  { icon: Clock, title: "24/7 Emergency Response", desc: "Disaster doesn't wait — neither do we. Immediate response for water, fire, and storm damage." },
+  { icon: FileText, title: "Insurance Coordination", desc: "We work directly with your insurance company, handling documentation and claims to ease your burden." },
+  { icon: Award, title: "Full-Service Contractor", desc: "From emergency mitigation to complete rebuilds, we manage your entire restoration project." },
+  { icon: Phone, title: "One Point of Contact", desc: "No juggling multiple contractors. One team handles restoration, roofing, HVAC, and electrical." },
+  { icon: MapPin, title: "Houston Based", desc: "Local experts proudly serving the Greater Houston area and surrounding communities." },
 ];
 
 const TrustSection = () => {

@@ -5,10 +5,10 @@ const CTASection = () => {
     <section id="contact" className="bg-accent py-16 md:py-24">
       <div className="container mx-auto px-4 text-center">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-accent-foreground mb-4">
-          Let's restore your<br />property together.
+          Your Restoration Contractor<br />From Start to Finish
         </h2>
         <p className="text-accent-foreground/80 mb-8 max-w-lg mx-auto">
-          Ready to start your restoration project? Need emergency water or fire damage help? Contact CBRS Group for a free consultation.
+          Whether you're facing an emergency or planning restoration work, CBRS Group is your single point of contact. We handle everything — from insurance coordination to complete rebuilds. Let us guide you through the process.
         </p>
         <div className="flex flex-wrap justify-center gap-4 mb-8">
           <a
