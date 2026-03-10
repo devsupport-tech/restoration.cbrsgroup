@@ -1,31 +1,30 @@
 import ServicePageLayout from "@/components/ServicePageLayout";
 import heroImg from "@/assets/service-hvac.jpg";
-import { Thermometer, Zap, Droplets, ShieldCheck, Wrench, ClipboardCheck } from "lucide-react";
+import { Thermometer, Droplets, ShieldCheck, Wrench, ClipboardCheck, AlertTriangle } from "lucide-react";
 
 const HvacService = () => (
   <ServicePageLayout
-    title="HVAC, Electrical & Plumbing"
-    subtitle="Complete Building Systems"
-    description="Keep your property comfortable, efficient, and safe with our comprehensive HVAC, electrical, and plumbing services — all up to code."
+    title="HVAC Services"
+    subtitle="Preventing Water Damage at the Source"
+    description="HVAC system failures are one of the leading causes of water damage in homes and businesses. From condensate line clogs to frozen coils and drain pan overflow — we fix and prevent HVAC-related water damage."
     heroImage={heroImg}
     features={[
-      "HVAC installation and replacement",
-      "Heating and cooling system repair",
-      "Electrical panel upgrades and wiring",
-      "Lighting installation and repair",
-      "Plumbing installation and repair",
-      "Water heater services",
+      "HVAC condensate line clearing and repair",
+      "Drain pan inspection and replacement",
+      "Frozen coil diagnosis and repair",
+      "HVAC system installation and replacement",
       "Preventative maintenance programs",
-      "Emergency service available",
+      "Emergency HVAC repair services",
+      "Water damage prevention inspections",
       "All work meets current building codes",
     ]}
     details={[
-      { title: "HVAC Systems", description: "Expert installation, repair, and maintenance of heating and cooling systems for maximum comfort.", icon: Thermometer },
-      { title: "Electrical Services", description: "Safe, code-compliant electrical work — from panel upgrades to full rewiring and lighting.", icon: Zap },
-      { title: "Plumbing Services", description: "Professional plumbing installation, repair, and maintenance for residential and commercial properties.", icon: Droplets },
-      { title: "Maintenance Plans", description: "Preventative maintenance programs to keep your building systems running efficiently year-round.", icon: Wrench },
-      { title: "Code Compliant", description: "Every project meets or exceeds current California building codes and safety standards.", icon: ClipboardCheck },
-      { title: "Licensed & Insured", description: "CA Lic. #1140407. Fully licensed professionals you can trust with your property.", icon: ShieldCheck },
+      { title: "Condensate Line Issues", description: "Clogged condensate lines are a top cause of indoor water damage. We clear, repair, and install safety switches.", icon: Droplets },
+      { title: "Drain Pan Overflow", description: "Cracked or overflowing drain pans can cause significant ceiling and wall damage. We inspect, repair, and replace.", icon: AlertTriangle },
+      { title: "Frozen Coil Damage", description: "Frozen evaporator coils lead to excess water when they thaw. We diagnose the root cause and prevent future leaks.", icon: Thermometer },
+      { title: "Preventative Maintenance", description: "Regular HVAC maintenance prevents costly water damage before it starts — saving you thousands in restoration costs.", icon: Wrench },
+      { title: "Code Compliant", description: "Every project meets or exceeds current building codes and safety standards.", icon: ClipboardCheck },
+      { title: "Licensed & Insured", description: "Fully licensed professionals you can trust with your property.", icon: ShieldCheck },
     ]}
   />
 );

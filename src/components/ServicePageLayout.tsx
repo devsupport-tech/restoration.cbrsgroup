@@ -46,11 +46,11 @@ const ServicePageLayout = ({
           <p className="text-primary-foreground/70 max-w-xl text-lg mb-8">{description}</p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="tel:3109906999"
+              href="tel:8326080535"
               className="inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-accent-foreground hover:bg-accent/90 transition-colors"
             >
               <Phone className="h-4 w-4" />
-              {emergency ? "24/7 Emergency: (310) 990-6999" : "(310) 990-6999"}
+              {emergency ? "24/7 Emergency: (832) 608-0535" : "(832) 608-0535"}
             </a>
             <a
               href="/#contact"
@@ -69,7 +69,7 @@ const ServicePageLayout = ({
             <div>
               <h2 className="font-heading text-3xl font-bold text-foreground mb-4">What We Offer</h2>
               <p className="text-muted-foreground mb-8">
-                Veterans Elite Contractors delivers every project with military-grade precision, quality materials, and code-compliant workmanship.
+                CBRS Group delivers every project with professional precision, quality materials, and expert workmanship.
               </p>
             </div>
             <ul className="space-y-4">
@@ -105,13 +105,13 @@ const ServicePageLayout = ({
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-heading text-3xl font-bold text-accent-foreground mb-4">Ready to Get Started?</h2>
           <p className="text-accent-foreground/80 mb-6 max-w-md mx-auto">
-            Contact Veterans Elite Contractors today for a free consultation and estimate.
+            Contact CBRS Group today for a free consultation and estimate.
           </p>
           <a
-            href="tel:3109906999"
+            href="tel:8326080535"
             className="inline-flex items-center gap-2 rounded-lg bg-primary px-8 py-3.5 text-sm font-semibold text-primary-foreground hover:bg-primary/90 transition-colors"
           >
-            <Phone className="h-4 w-4" /> Call (310) 990-6999
+            <Phone className="h-4 w-4" /> Call (832) 608-0535
           </a>
         </div>
       </section>
