@@ -1,5 +1,6 @@
-import logo from "@/assets/logo.png";
+import logo from "@/assets/cbrs-logo.png";
 import { Facebook, MapPin, Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -8,22 +9,27 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="mb-4">
-              <img src={logo} alt="Veterans Elite Contractors LLC" className="h-12" />
+              <img src={logo} alt="CBRS Group Restorations" className="h-12" />
             </div>
             <p className="text-sm text-primary-foreground/50 mb-3">
-              Veteran-owned restoration & construction serving Del Mar and Southern California.
+              Professional restoration services serving the Greater Houston area.
             </p>
-            <p className="text-xs text-primary-foreground/40">CA Lic. #1140407</p>
           </div>
 
           <div>
             <h4 className="font-heading font-semibold text-primary-foreground mb-3 text-sm">Services</h4>
             <ul className="space-y-2">
-              {["Restoration", "Roofing", "Epoxy Flooring", "HVAC & Electrical", "Custom Glass", "Asphalt"].map((link) => (
-                <li key={link}>
-                  <a href="#services" className="text-sm text-primary-foreground/50 hover:text-primary-foreground transition-colors">
-                    {link}
-                  </a>
+              {[
+                { label: "Water Damage", href: "/services/restoration" },
+                { label: "Fire Restoration", href: "/services/fire-restoration" },
+                { label: "Roofing", href: "/services/roofing" },
+                { label: "HVAC", href: "/services/hvac" },
+                { label: "Electrical", href: "/services/electrical" },
+              ].map((link) => (
+                <li key={link.label}>
+                  <Link to={link.href} className="text-sm text-primary-foreground/50 hover:text-primary-foreground transition-colors">
+                    {link.label}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -32,7 +38,7 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold text-primary-foreground mb-3 text-sm">Company</h4>
             <ul className="space-y-2">
-              {["About", "Projects", "Careers", "Contact"].map((link) => (
+              {["About", "Projects", "Contact"].map((link) => (
                 <li key={link}>
                   <a href={`#${link.toLowerCase()}`} className="text-sm text-primary-foreground/50 hover:text-primary-foreground transition-colors">
                     {link}
@@ -47,19 +53,19 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <Phone className="h-4 w-4 text-accent mt-0.5 shrink-0" />
-                <a href="tel:3109906999" className="text-sm text-primary-foreground/50 hover:text-primary-foreground transition-colors">
-                  (310) 990-6999
+                <a href="tel:8326080535" className="text-sm text-primary-foreground/50 hover:text-primary-foreground transition-colors">
+                  (832) 608-0535
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-accent mt-0.5 shrink-0" />
                 <span className="text-sm text-primary-foreground/50">
-                  122 15th Street<br />Del Mar, CA 92014
+                  Houston, TX
                 </span>
               </li>
               <li className="flex items-center gap-3 pt-2">
                 <a
-                  href="https://www.facebook.com/61582371644562/"
+                  href="https://www.facebook.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary-foreground/50 hover:text-primary-foreground transition-colors"
@@ -73,10 +79,10 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-2">
           <p className="text-xs text-primary-foreground/40">
-            © 2026 Veterans Elite Contractors LLC. All rights reserved.
+            © 2026 CBRS Group. All rights reserved.
           </p>
           <p className="text-xs text-primary-foreground/40">
-            Serving Del Mar, San Diego County & Southern California
+            Serving the Greater Houston Area
           </p>
         </div>
       </div>

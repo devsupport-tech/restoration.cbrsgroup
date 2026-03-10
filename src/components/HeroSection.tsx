@@ -19,12 +19,11 @@ const HeroSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // For now, open mailto with the form data
     const subject = encodeURIComponent(`Free Estimate Request - ${formData.service || "General"}`);
     const body = encodeURIComponent(
       `Name: ${formData.name}\nPhone: ${formData.phone}\nEmail: ${formData.email}\nService: ${formData.service}\nMessage: ${formData.message}`
     );
-    window.location.href = `mailto:info@veteranselitecontractors.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@cbrsgroup.com?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -37,30 +36,28 @@ const HeroSection = () => {
         <div className="space-y-6">
           <div className="inline-flex items-center gap-2 rounded-full bg-primary-foreground/10 px-4 py-1.5 text-sm text-primary-foreground/80">
             <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-            Veteran-Owned · Licensed #1140407 · Del Mar, CA
+            Professional Restoration Services · Houston, TX
           </div>
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-primary-foreground">
-            Restoration &<br />
-            Construction with<br />
-            <span className="text-accent">Military Precision</span>
+            Water & Fire<br />
+            Damage Restoration<br />
+            <span className="text-accent">Done Right</span>
           </h1>
           <p className="text-primary-foreground/60 max-w-md">
-            Veterans Elite Contractors delivers fast, reliable restoration and
-            construction services across San Diego County — available 24/7 for
-            emergencies.
+            CBRS Group delivers fast, reliable restoration services — from emergency water extraction to complete fire damage rebuild. Available 24/7.
           </p>
           <a
-            href="tel:3109906999"
+            href="tel:8326080535"
             className="inline-flex items-center gap-2 rounded-lg border border-primary-foreground/20 px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary-foreground/5 transition-colors"
           >
-            <Phone className="h-4 w-4" /> (310) 990-6999
+            <Phone className="h-4 w-4" /> (832) 608-0535
           </a>
 
           <div className="flex gap-10 pt-6 border-t border-primary-foreground/10">
             {[
               { value: "24/7", label: "Emergency Response" },
-              { value: "6+", label: "Service Lines" },
-              { value: "So. Cal", label: "Service Area" },
+              { value: "5", label: "Service Lines" },
+              { value: "Houston", label: "Service Area" },
             ].map((stat) => (
               <div key={stat.label}>
                 <p className="font-heading text-2xl md:text-3xl font-bold text-accent">
@@ -74,7 +71,6 @@ const HeroSection = () => {
 
         {/* Right — CTA Form */}
         <div className="relative">
-          {/* Background image peek on large screens */}
           <div className="hidden lg:block absolute -top-8 -right-8 w-64 h-64 rounded-2xl overflow-hidden opacity-30">
             <img
               src={heroWorker}
@@ -137,12 +133,11 @@ const HeroSection = () => {
                 <option value="" disabled>
                   Select a Service *
                 </option>
-                <option value="Restoration">Emergency Restoration</option>
+                <option value="Water Damage Restoration">Water Damage Restoration</option>
+                <option value="Fire Restoration">Fire Restoration</option>
                 <option value="Roofing">Roofing Services</option>
-                <option value="Epoxy Flooring">Epoxy Flooring</option>
-                <option value="HVAC & Electrical">HVAC, Electrical & Plumbing</option>
-                <option value="Custom Glass">Custom Glass Solutions</option>
-                <option value="Asphalt">Asphalt Solutions</option>
+                <option value="HVAC">HVAC Services</option>
+                <option value="Electrical">Electrical Services</option>
                 <option value="Other">Other</option>
               </select>
               <textarea

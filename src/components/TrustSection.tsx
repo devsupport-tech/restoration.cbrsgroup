@@ -1,12 +1,12 @@
-import { ShieldCheck, Clock, Award, Users, Phone, MapPin } from "lucide-react";
+import { ShieldCheck, Clock, Award, Droplets, Phone, MapPin } from "lucide-react";
 
 const reasons = [
-  { icon: ShieldCheck, title: "Licensed & Insured", desc: "CA Lic. #1140407 — fully licensed and insured for your protection." },
-  { icon: Clock, title: "24/7 Emergency Response", desc: "Available around the clock for urgent restoration needs." },
-  { icon: Award, title: "Veteran-Owned & Operated", desc: "Military discipline and precision in every project we undertake." },
-  { icon: Users, title: "Supporting Fellow Veterans", desc: "Helping veterans build rewarding careers in the construction trades." },
-  { icon: Phone, title: "One-Stop-Shop", desc: "Multiple services under one roof — no need to hire multiple contractors." },
-  { icon: MapPin, title: "Local Del Mar Presence", desc: "Proudly serving Del Mar, San Diego County, and Southern California." },
+  { icon: ShieldCheck, title: "Licensed & Insured", desc: "Fully licensed and insured for your protection and peace of mind." },
+  { icon: Clock, title: "24/7 Emergency Response", desc: "Available around the clock for urgent water and fire damage needs." },
+  { icon: Award, title: "Industry Expertise", desc: "Years of restoration experience with proven systems and processes." },
+  { icon: Droplets, title: "Water Damage Specialists", desc: "From burst pipes to floods — fast extraction, drying, and rebuild." },
+  { icon: Phone, title: "One Call Does It All", desc: "Restoration, roofing, HVAC, and electrical — all under one roof." },
+  { icon: MapPin, title: "Houston Based", desc: "Proudly serving the Greater Houston area and surrounding communities." },
 ];
 
 const TrustSection = () => {
@@ -16,7 +16,7 @@ const TrustSection = () => {
         <div className="text-center mb-12">
           <p className="text-sm font-semibold text-accent mb-2">Why Choose Us</p>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground">
-            Why Clients Trust<br />Veterans Elite Contractors
+            Why Clients Trust<br />CBRS Group
           </h2>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

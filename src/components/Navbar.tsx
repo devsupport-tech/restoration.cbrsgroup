@@ -1,15 +1,14 @@
-import logo from "@/assets/logo.png";
+import logo from "@/assets/cbrs-logo.png";
 import { Menu, X, Phone } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const navLinks = [
-  { label: "Restoration", href: "/services/restoration" },
+  { label: "Water Damage", href: "/services/restoration" },
+  { label: "Fire Restoration", href: "/services/fire-restoration" },
   { label: "Roofing", href: "/services/roofing" },
-  { label: "Epoxy Flooring", href: "/services/epoxy-flooring" },
-  { label: "HVAC & Electrical", href: "/services/hvac" },
-  { label: "Custom Glass", href: "/services/glass" },
-  { label: "Asphalt", href: "/services/asphalt" },
+  { label: "HVAC", href: "/services/hvac" },
+  { label: "Electrical", href: "/services/electrical" },
   { label: "About", href: "/#about" },
   { label: "Contact", href: "/#contact" },
 ];
@@ -45,15 +44,15 @@ const Navbar = () => {
       <div className="bg-background">
         <div className="container mx-auto flex items-center justify-between py-3 px-4">
           <Link to="/" className="flex items-center shrink-0">
-            <img src={logo} alt="Veterans Elite Contractors LLC" className="h-14" />
+            <img src={logo} alt="CBRS Group Restorations" className="h-14" />
           </Link>
 
           <div className="hidden lg:flex flex-col items-center text-center">
             <span className="text-foreground font-heading text-lg font-semibold tracking-wide">
-              Veteran-Owned Restoration &amp; Construction
+              Professional Restoration Services
             </span>
             <span className="text-accent text-sm font-semibold">
-              Serving Del Mar &amp; San Diego County
+              Serving the Greater Houston Area
             </span>
           </div>
 
@@ -63,11 +62,11 @@ const Navbar = () => {
                 Call Now for a Free Estimate
               </span>
               <a
-                href="tel:3109906999"
+                href="tel:8326080535"
                 className="flex items-center gap-2 text-accent font-heading text-xl font-bold hover:text-accent/80 transition-colors"
               >
                 <Phone className="h-5 w-5" />
-                (310) 990-6999
+                (832) 608-0535
               </a>
             </div>
           </div>
@@ -82,7 +81,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Bottom bar — red navigation links */}
+      {/* Bottom bar — accent navigation links */}
       <div className="hidden md:block bg-accent border-t border-border">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center gap-1">
@@ -105,7 +104,7 @@ const Navbar = () => {
         <div className="md:hidden bg-background border-t border-border">
           <div className="px-4 py-2">
             <p className="text-accent text-xs font-semibold mb-2">
-              Serving Del Mar &amp; San Diego County
+              Serving the Greater Houston Area
             </p>
             {navLinks.map((link) => (
               <Link
@@ -118,10 +117,10 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="tel:3109906999"
+              href="tel:8326080535"
               className="mt-3 flex items-center justify-center gap-2 rounded-lg border border-accent px-5 py-3 text-accent font-heading font-bold"
             >
-              <Phone className="h-4 w-4" /> (310) 990-6999
+              <Phone className="h-4 w-4" /> (832) 608-0535
             </a>
             <Link
               to="/#contact"

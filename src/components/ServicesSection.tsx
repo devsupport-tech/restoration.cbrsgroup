@@ -1,42 +1,36 @@
-import { Flame, Droplets, Home, Zap, GlassWater, Construction, ArrowRight } from "lucide-react";
+import { Droplets, Flame, Home, Thermometer, Zap, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
   {
-    icon: Flame,
-    title: "Restoration Services",
-    desc: "Fire, smoke, water, and flood damage restoration with 24/7 emergency response and disaster claims assistance.",
+    icon: Droplets,
+    title: "Water Damage Restoration",
+    desc: "Complete water damage restoration — from emergency water extraction to full structural drying, mold remediation, and rebuild.",
     href: "/services/restoration",
+  },
+  {
+    icon: Flame,
+    title: "Fire Restoration",
+    desc: "Expert fire and smoke damage restoration — structural repair, smoke odor removal, content cleaning, and full rebuild services.",
+    href: "/services/fire-restoration",
   },
   {
     icon: Home,
     title: "Roofing Services",
-    desc: "Expert roofing installations, repairs, and storm damage repair — durable solutions that stand the test of time.",
+    desc: "Storm damage repair, leak detection, and full roof replacements — protecting your property from water intrusion at its source.",
     href: "/services/roofing",
   },
   {
-    icon: Construction,
-    title: "Epoxy Flooring",
-    desc: "High-quality garage, warehouse, and commercial epoxy flooring combining strength, safety, and style.",
-    href: "/services/epoxy-flooring",
+    icon: Thermometer,
+    title: "HVAC Services",
+    desc: "HVAC failures are a leading cause of water damage. We handle repairs, replacements, and preventative maintenance to protect your property.",
+    href: "/services/hvac",
   },
   {
     icon: Zap,
-    title: "HVAC, Electrical & Plumbing",
-    desc: "Complete building systems — installation and repair to keep your property running smoothly, safely, and up to code.",
-    href: "/services/hvac-electrical-plumbing",
-  },
-  {
-    icon: GlassWater,
-    title: "Custom Glass Solutions",
-    desc: "Professional custom glass installations, repairs, and specialty glass work for residential and commercial properties.",
-    href: "/services/custom-glass",
-  },
-  {
-    icon: Droplets,
-    title: "Asphalt Solutions",
-    desc: "Professional paving for driveways, parking lots, and roadways — built to last with quality materials.",
-    href: "/services/asphalt",
+    title: "Electrical Services",
+    desc: "Faulty electrical systems can cause water heater failures, sump pump issues, and flooding. Expert electrical services to prevent water damage.",
+    href: "/services/electrical",
   },
 ];
 
@@ -47,7 +41,7 @@ const ServicesSection = () => {
         <div className="text-center mb-12">
           <p className="text-sm font-semibold text-accent mb-2">What We Do</p>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground">
-            Comprehensive Services<br />Under One Roof
+            Comprehensive Restoration<br />& Prevention Services
           </h2>
         </div>
 
