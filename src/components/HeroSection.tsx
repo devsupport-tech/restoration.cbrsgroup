@@ -44,7 +44,7 @@ const HeroSection = () => {
             <span className="text-accent">Done Right</span>
           </h1>
           <p className="text-primary-foreground/60 max-w-md">
-            CBRS Group delivers fast, reliable restoration services — from emergency water extraction to complete fire damage rebuild. Available 24/7.
+            CBRS Group delivers concierge-level restoration services — from water extraction to complete fire damage rebuild. One dedicated team managing your entire project.
           </p>
           <a
             href="tel:8326080535"
@@ -55,7 +55,7 @@ const HeroSection = () => {
 
           <div className="flex gap-10 pt-6 border-t border-primary-foreground/10">
             {[
-              { value: "24/7", label: "Emergency Response" },
+              { value: "1", label: "Point of Contact" },
               { value: "5", label: "Service Lines" },
               { value: "Houston", label: "Service Area" },
             ].map((stat) => (

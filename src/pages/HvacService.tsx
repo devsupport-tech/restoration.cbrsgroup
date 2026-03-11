@@ -14,7 +14,7 @@ const HvacService = () => (
       "Frozen coil diagnosis and repair",
       "HVAC system installation and replacement",
       "Preventative maintenance programs",
-      "Emergency HVAC repair services",
+      "HVAC repair services",
       "Water damage prevention inspections",
       "All work meets current building codes",
     ]}

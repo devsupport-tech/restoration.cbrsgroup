@@ -1,11 +1,11 @@
-import { ShieldCheck, Clock, Award, FileText, Phone, MapPin } from "lucide-react";
+import { ShieldCheck, Star, Award, FileText, Phone, MapPin } from "lucide-react";
 
 const reasons = [
   { icon: ShieldCheck, title: "Licensed & Insured", desc: "Fully licensed general contractor with comprehensive insurance coverage for your protection." },
-  { icon: Clock, title: "24/7 Emergency Response", desc: "Disaster doesn't wait — neither do we. Immediate response for water, fire, and storm damage." },
+  { icon: Star, title: "Concierge Service", desc: "White-glove restoration experience. We handle every detail so you can focus on what matters most." },
   { icon: FileText, title: "Insurance Coordination", desc: "We work directly with your insurance company, handling documentation and claims to ease your burden." },
-  { icon: Award, title: "Full-Service Contractor", desc: "From emergency mitigation to complete rebuilds, we manage your entire restoration project." },
-  { icon: Phone, title: "One Point of Contact", desc: "No juggling multiple contractors. One team handles restoration, roofing, HVAC, and electrical." },
+  { icon: Award, title: "Full-Service Contractor", desc: "From initial assessment to complete rebuilds, we manage your entire restoration project." },
+  { icon: Phone, title: "One Point of Contact", desc: "No juggling multiple contractors. One dedicated team handles restoration, roofing, HVAC, and electrical." },
   { icon: MapPin, title: "Houston Based", desc: "Local experts proudly serving the Greater Houston area and surrounding communities." },
 ];
 

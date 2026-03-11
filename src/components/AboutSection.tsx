@@ -20,7 +20,7 @@ const AboutSection = () => {
               Property damage can happen in an instant: a frozen pipe bursts overnight, an electrical fault sparks a fire, an HVAC failure leads to water damage, or severe weather tears through your roof. These events are stressful and overwhelming, but you don't have to face them alone.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              As your general contractor, we manage the entire restoration from start to finish. We handle the emergency response, work directly with your insurance company, coordinate all repairs and rebuilding, and don't stop until your property is fully restored. One contractor. One point of contact. Complete restoration.
+              As your general contractor, we manage the entire restoration from start to finish. We work directly with your insurance company, coordinate all repairs and rebuilding, and don't stop until your property is fully restored. One contractor. One point of contact. Concierge-level service.
             </p>
           </div>
 
@@ -30,7 +30,7 @@ const AboutSection = () => {
             </h3>
             <ul className="space-y-4">
               {[
-                "24/7 emergency response when disaster strikes",
+                "Dedicated project manager for your restoration",
                 "Thorough damage assessment and documentation",
                 "Direct insurance claim assistance and coordination",
                 "Professional water extraction and structural drying",

@@ -6,11 +6,10 @@ const FireRestorationService = () => (
   <ServicePageLayout
     title="Fire Restoration Services"
     subtitle="Fire & Smoke Damage Experts"
-    description="Complete fire and smoke damage restoration — from emergency board-up and debris removal to full structural repair, content cleaning, and rebuild."
+    description="Complete fire and smoke damage restoration — from board-up and debris removal to full structural repair, content cleaning, and rebuild. One team managing your entire project."
     heroImage={heroImg}
-    emergency
     features={[
-      "Emergency board-up and securing",
+      "Property board-up and securing",
       "Fire damage assessment and documentation",
       "Structural repair and rebuild",
       "Smoke and soot damage cleaning",
@@ -20,7 +19,7 @@ const FireRestorationService = () => (
       "Full reconstruction services",
     ]}
     details={[
-      { title: "Emergency Response", description: "24/7 emergency response to secure your property and begin the restoration process immediately.", icon: Flame },
+      { title: "Dedicated Project Manager", description: "Your single point of contact who coordinates every aspect of your fire restoration from start to finish.", icon: Flame },
       { title: "Smoke & Soot Removal", description: "Professional smoke and soot cleaning from all surfaces, including specialized treatments for different materials.", icon: Wind },
       { title: "Structural Repair", description: "Complete structural assessment and repair — from framing and drywall to full rebuilds.", icon: Home },
       { title: "Content Restoration", description: "Professional cleaning and restoration of personal belongings, furniture, and electronics affected by fire and smoke.", icon: Wrench },

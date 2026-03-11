@@ -31,8 +31,8 @@ const causes = [
 const processSteps = [
   {
     step: "01",
-    title: "Emergency Response",
-    description: "Call us 24/7. We respond immediately to assess the damage and begin emergency mitigation to prevent further loss.",
+    title: "Initial Consultation",
+    description: "Contact us to schedule a consultation. We'll assess your situation and create a personalized restoration plan for your property.",
   },
   {
     step: "02",
@@ -122,7 +122,7 @@ const RestorationProcessSection = () => {
 
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-6">
-            Ready to start your restoration? We're available 24/7 to help.
+            Ready to start your restoration? Schedule a consultation with our team.
           </p>
           <a
             href="tel:8326080535"

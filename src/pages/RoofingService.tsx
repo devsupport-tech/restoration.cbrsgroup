@@ -9,7 +9,7 @@ const RoofingService = () => (
     description="Your roof is your first line of defense against water damage. Expert roofing repairs, storm damage restoration, leak detection, and full replacements."
     heroImage={heroImg}
     features={[
-      "Emergency storm damage repair",
+      "Storm damage repair",
       "Roof leak detection and repair",
       "Full roof replacement",
       "Shingle, tile, and flat roof systems",
@@ -19,7 +19,7 @@ const RoofingService = () => (
       "Preventative maintenance programs",
     ]}
     details={[
-      { title: "Storm Damage Repair", description: "Fast response to storm, wind, and hail damage — emergency tarping and permanent repairs.", icon: AlertTriangle },
+      { title: "Storm Damage Repair", description: "Professional storm, wind, and hail damage repair — tarping and permanent repairs with dedicated project management.", icon: AlertTriangle },
       { title: "Leak Detection", description: "Advanced leak detection to find and fix water intrusion before it causes interior damage.", icon: Droplets },
       { title: "Full Replacement", description: "Complete roof replacement with quality materials and expert installation for long-term protection.", icon: Home },
       { title: "Preventative Care", description: "Regular inspection and maintenance programs to catch small issues before they become water damage emergencies.", icon: Wrench },

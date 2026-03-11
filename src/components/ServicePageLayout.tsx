@@ -12,7 +12,6 @@ interface ServicePageLayoutProps {
   features: string[];
   details: { title: string; description: string; icon: LucideIcon }[];
   ctaText?: string;
-  emergency?: boolean;
 }
 
 const ServicePageLayout = ({
@@ -23,7 +22,6 @@ const ServicePageLayout = ({
   features,
   details,
   ctaText = "Get a Free Estimate",
-  emergency = false,
 }: ServicePageLayoutProps) => {
   return (
     <div className="min-h-screen">
@@ -50,7 +48,7 @@ const ServicePageLayout = ({
               className="inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-accent-foreground hover:bg-accent/90 transition-colors"
             >
               <Phone className="h-4 w-4" />
-              {emergency ? "24/7 Emergency: (832) 608-0535" : "(832) 608-0535"}
+              Schedule a Consultation
             </a>
             <a
               href="/#contact"

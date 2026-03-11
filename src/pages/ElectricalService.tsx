@@ -15,7 +15,7 @@ const ElectricalService = () => (
       "Electrical inspections for water damage risk",
       "Generator installation for flood pump backup",
       "Moisture detection system wiring",
-      "Emergency electrical services",
+      "Electrical services and repairs",
       "All work meets current building codes",
     ]}
     details={[
