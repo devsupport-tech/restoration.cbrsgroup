@@ -1,9 +1,19 @@
+import { Helmet } from "react-helmet-async";
 import ServicePageLayout from "@/components/ServicePageLayout";
 import heroImg from "@/assets/service-roofing.jpg";
 import { Home, Droplets, ShieldCheck, Wrench, ClipboardCheck, AlertTriangle } from "lucide-react";
 
 const RoofingService = () => (
-  <ServicePageLayout
+  <>
+    <Helmet>
+      <title>Roofing Services Houston TX | Storm Damage Repair | CBRS Group</title>
+      <meta name="description" content="Professional roofing services in Houston, TX. Storm damage repair, roof leak detection, full replacement & preventative maintenance. Call (832) 608-0535." />
+      <link rel="canonical" href="https://restoration.cbrsgroup.com/services/roofing" />
+      <meta property="og:title" content="Roofing Services Houston TX | CBRS Group" />
+      <meta property="og:description" content="Professional roofing services in Houston, TX. Storm damage repair, roof leak detection, full replacement & preventative maintenance." />
+      <meta property="og:url" content="https://restoration.cbrsgroup.com/services/roofing" />
+    </Helmet>
+    <ServicePageLayout
     title="Roofing Services"
     subtitle="Protecting Your Property from Water Intrusion"
     description="Your roof is your first line of defense against water damage. Expert roofing repairs, storm damage restoration, leak detection, and full replacements."
@@ -26,7 +36,8 @@ const RoofingService = () => (
       { title: "Insurance Support", description: "We work with your insurance to document storm damage and streamline your roofing claim.", icon: ClipboardCheck },
       { title: "Licensed & Insured", description: "Fully licensed and insured roofing professionals you can trust.", icon: ShieldCheck },
     ]}
-  />
+    />
+  </>
 );
 
 export default RoofingService;

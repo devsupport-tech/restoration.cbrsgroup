@@ -1,9 +1,19 @@
+import { Helmet } from "react-helmet-async";
 import ServicePageLayout from "@/components/ServicePageLayout";
 import heroImg from "@/assets/service-hvac.jpg";
 import { Zap, Droplets, ShieldCheck, Wrench, ClipboardCheck, AlertTriangle } from "lucide-react";
 
 const ElectricalService = () => (
-  <ServicePageLayout
+  <>
+    <Helmet>
+      <title>Electrical Services Houston TX | Water Damage Prevention | CBRS Group</title>
+      <meta name="description" content="Electrical services in Houston, TX. Water heater connections, sump pump installation, panel upgrades & leak detection systems. Call (832) 608-0535." />
+      <link rel="canonical" href="https://restoration.cbrsgroup.com/services/electrical" />
+      <meta property="og:title" content="Electrical Services Houston TX | CBRS Group" />
+      <meta property="og:description" content="Electrical services in Houston, TX. Water heater connections, sump pump installation, panel upgrades & leak detection systems." />
+      <meta property="og:url" content="https://restoration.cbrsgroup.com/services/electrical" />
+    </Helmet>
+    <ServicePageLayout
     title="Electrical Services"
     subtitle="Preventing Water Damage Through Electrical Safety"
     description="Faulty electrical systems cause water heater failures, sump pump breakdowns, and flooding. Our electrical services address the hidden causes of water damage in your home or business."
@@ -26,7 +36,8 @@ const ElectricalService = () => (
       { title: "Code Compliant", description: "Every project meets or exceeds current building codes and safety standards.", icon: ClipboardCheck },
       { title: "Licensed & Insured", description: "Fully licensed professionals you can trust with your property.", icon: ShieldCheck },
     ]}
-  />
+    />
+  </>
 );
 
 export default ElectricalService;

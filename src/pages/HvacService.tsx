@@ -1,9 +1,19 @@
+import { Helmet } from "react-helmet-async";
 import ServicePageLayout from "@/components/ServicePageLayout";
 import heroImg from "@/assets/service-hvac.jpg";
 import { Thermometer, Droplets, ShieldCheck, Wrench, ClipboardCheck, AlertTriangle } from "lucide-react";
 
 const HvacService = () => (
-  <ServicePageLayout
+  <>
+    <Helmet>
+      <title>HVAC Services Houston TX | Water Damage Prevention | CBRS Group</title>
+      <meta name="description" content="HVAC services in Houston, TX. Condensate line repair, drain pan replacement, preventative maintenance to prevent water damage. Call (832) 608-0535." />
+      <link rel="canonical" href="https://restoration.cbrsgroup.com/services/hvac" />
+      <meta property="og:title" content="HVAC Services Houston TX | CBRS Group" />
+      <meta property="og:description" content="HVAC services in Houston, TX. Condensate line repair, drain pan replacement, preventative maintenance to prevent water damage." />
+      <meta property="og:url" content="https://restoration.cbrsgroup.com/services/hvac" />
+    </Helmet>
+    <ServicePageLayout
     title="HVAC Services"
     subtitle="Preventing Water Damage at the Source"
     description="HVAC system failures are one of the leading causes of water damage in homes and businesses. From condensate line clogs to frozen coils and drain pan overflow — we fix and prevent HVAC-related water damage."
@@ -26,7 +36,8 @@ const HvacService = () => (
       { title: "Code Compliant", description: "Every project meets or exceeds current building codes and safety standards.", icon: ClipboardCheck },
       { title: "Licensed & Insured", description: "Fully licensed professionals you can trust with your property.", icon: ShieldCheck },
     ]}
-  />
+    />
+  </>
 );
 
 export default HvacService;
