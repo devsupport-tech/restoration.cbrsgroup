@@ -31,6 +31,24 @@ import TomballWaterDamage from "./pages/water-damage/Tomball";
 import ConroeWaterDamage from "./pages/water-damage/Conroe";
 import FriendswoodWaterDamage from "./pages/water-damage/Friendswood";
 
+// Fire Damage Location Pages
+import HoustonFireDamage from "./pages/fire-damage/Houston";
+import KatyFireDamage from "./pages/fire-damage/Katy";
+import SugarLandFireDamage from "./pages/fire-damage/SugarLand";
+import PearlandFireDamage from "./pages/fire-damage/Pearland";
+import TheWoodlandsFireDamage from "./pages/fire-damage/TheWoodlands";
+import CypressFireDamage from "./pages/fire-damage/Cypress";
+import SpringFireDamage from "./pages/fire-damage/Spring";
+import HumbleFireDamage from "./pages/fire-damage/Humble";
+import LeagueCityFireDamage from "./pages/fire-damage/LeagueCity";
+import MissouriCityFireDamage from "./pages/fire-damage/MissouriCity";
+import PasadenaFireDamage from "./pages/fire-damage/Pasadena";
+import BaytownFireDamage from "./pages/fire-damage/Baytown";
+import RichmondFireDamage from "./pages/fire-damage/Richmond";
+import TomballFireDamage from "./pages/fire-damage/Tomball";
+import ConroeFireDamage from "./pages/fire-damage/Conroe";
+import FriendswoodFireDamage from "./pages/fire-damage/Friendswood";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -66,6 +84,24 @@ const App = () => (
             <Route path="/water-damage/tomball" element={<TomballWaterDamage />} />
             <Route path="/water-damage/conroe" element={<ConroeWaterDamage />} />
             <Route path="/water-damage/friendswood" element={<FriendswoodWaterDamage />} />
+
+            {/* Fire Damage Location Pages */}
+            <Route path="/fire-damage/houston" element={<HoustonFireDamage />} />
+            <Route path="/fire-damage/katy" element={<KatyFireDamage />} />
+            <Route path="/fire-damage/sugar-land" element={<SugarLandFireDamage />} />
+            <Route path="/fire-damage/pearland" element={<PearlandFireDamage />} />
+            <Route path="/fire-damage/the-woodlands" element={<TheWoodlandsFireDamage />} />
+            <Route path="/fire-damage/cypress" element={<CypressFireDamage />} />
+            <Route path="/fire-damage/spring" element={<SpringFireDamage />} />
+            <Route path="/fire-damage/humble" element={<HumbleFireDamage />} />
+            <Route path="/fire-damage/league-city" element={<LeagueCityFireDamage />} />
+            <Route path="/fire-damage/missouri-city" element={<MissouriCityFireDamage />} />
+            <Route path="/fire-damage/pasadena" element={<PasadenaFireDamage />} />
+            <Route path="/fire-damage/baytown" element={<BaytownFireDamage />} />
+            <Route path="/fire-damage/richmond" element={<RichmondFireDamage />} />
+            <Route path="/fire-damage/tomball" element={<TomballFireDamage />} />
+            <Route path="/fire-damage/conroe" element={<ConroeFireDamage />} />
+            <Route path="/fire-damage/friendswood" element={<FriendswoodFireDamage />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
