@@ -12,6 +12,7 @@ interface ServicePageLayoutProps {
   features: string[];
   details: { title: string; description: string; icon: LucideIcon }[];
   ctaText?: string;
+  children?: React.ReactNode;
 }
 
 const ServicePageLayout = ({
@@ -22,6 +23,7 @@ const ServicePageLayout = ({
   features,
   details,
   ctaText = "Get a Free Estimate",
+  children,
 }: ServicePageLayoutProps) => {
   return (
     <div className="min-h-screen">
@@ -97,6 +99,9 @@ const ServicePageLayout = ({
           </div>
         </div>
       </section>
+
+      {/* Additional content (FAQs, etc.) */}
+      {children}
 
       {/* CTA */}
       <section className="bg-accent py-16">

@@ -1,7 +1,35 @@
 import { Helmet } from "react-helmet-async";
 import ServicePageLayout from "@/components/ServicePageLayout";
+import FAQSection from "@/components/FAQSection";
 import heroImg from "@/assets/service-restoration.jpg";
 import { Droplets, Home, Wind, Wrench, ShieldCheck, ClipboardCheck } from "lucide-react";
+
+const waterDamageFAQs = [
+  {
+    question: "How quickly can you respond to a water damage emergency?",
+    answer: "We offer 24/7 emergency response and typically arrive within 60-90 minutes of your call in the Houston metro area. Fast response is critical to minimize damage and prevent mold growth.",
+  },
+  {
+    question: "Does homeowners insurance cover water damage restoration?",
+    answer: "Most homeowners insurance policies cover sudden and accidental water damage, such as burst pipes or appliance failures. We work directly with your insurance company to document damage and streamline the claims process.",
+  },
+  {
+    question: "How long does water damage restoration take?",
+    answer: "The timeline depends on the extent of damage. Minor water damage may take 3-5 days, while severe flooding can take 1-2 weeks for drying alone, plus additional time for repairs. We provide a detailed timeline after our initial assessment.",
+  },
+  {
+    question: "Can I stay in my home during water damage restoration?",
+    answer: "It depends on the severity and location of the damage. For minor damage in one area, you may be able to stay. For extensive damage affecting multiple rooms or if there are safety concerns, temporary relocation may be recommended.",
+  },
+  {
+    question: "How do you prevent mold after water damage?",
+    answer: "We use industrial-grade dehumidifiers and air movers to thoroughly dry all affected areas within 24-48 hours. We also apply antimicrobial treatments and monitor moisture levels to ensure complete drying, which prevents mold growth.",
+  },
+  {
+    question: "What should I do immediately after discovering water damage?",
+    answer: "First, stop the water source if possible and safe. Turn off electricity to affected areas. Move valuables to dry areas. Then call us immediately at (832) 608-0535. Don't use household vacuums on water - they're not designed for it and can be dangerous.",
+  },
+];
 
 const RestorationService = () => (
   <>
@@ -36,7 +64,9 @@ const RestorationService = () => (
       { title: "Insurance Support", description: "We work directly with your insurance company to document damage and streamline the claims process.", icon: ClipboardCheck },
       { title: "Content Restoration", description: "Professional pack-out, cleaning, and restoration of personal belongings and furniture.", icon: Wrench },
     ]}
-    />
+    >
+      <FAQSection faqs={waterDamageFAQs} title="Water Damage Restoration FAQs" />
+    </ServicePageLayout>
   </>
 );
 

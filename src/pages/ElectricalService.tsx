@@ -1,7 +1,35 @@
 import { Helmet } from "react-helmet-async";
 import ServicePageLayout from "@/components/ServicePageLayout";
+import FAQSection from "@/components/FAQSection";
 import heroImg from "@/assets/service-hvac.jpg";
 import { Zap, Droplets, ShieldCheck, Wrench, ClipboardCheck, AlertTriangle } from "lucide-react";
+
+const electricalFAQs = [
+  {
+    question: "How do electrical issues cause water damage?",
+    answer: "Electrical failures can cause water heater malfunctions leading to leaks or flooding, sump pump failures during storms, and problems with moisture detection systems. Proper electrical installation and maintenance prevents these water damage scenarios.",
+  },
+  {
+    question: "Can you install a backup power system for my sump pump?",
+    answer: "Yes, we install battery backup systems and generator connections for sump pumps. This ensures your basement stays protected during power outages when flooding risk is often highest.",
+  },
+  {
+    question: "My water heater is leaking — is it electrical or plumbing?",
+    answer: "It could be either. Electric water heaters can leak from failed heating elements, faulty thermostats, or corroded tanks. We diagnose the root cause and either repair the electrical components or coordinate with plumbers if needed.",
+  },
+  {
+    question: "Do you install water leak detection systems?",
+    answer: "Yes, we install and wire water leak detection systems that alert you to leaks before they cause major damage. These systems can be placed near water heaters, under sinks, near washing machines, and in basements.",
+  },
+  {
+    question: "How quickly can you respond to an electrical emergency related to water damage?",
+    answer: "We offer 24/7 emergency response. If you have standing water near electrical systems or a water heater emergency, call us immediately at (832) 608-0535. Safety is the priority — never enter standing water if electrical systems may be affected.",
+  },
+  {
+    question: "Do you handle both the electrical repair and water damage restoration?",
+    answer: "Yes, we provide complete service. We fix the electrical issue, address any water damage to your home, and ensure everything is safe and up to code. One company handles your entire restoration project.",
+  },
+];
 
 const ElectricalService = () => (
   <>
@@ -36,7 +64,9 @@ const ElectricalService = () => (
       { title: "Code Compliant", description: "Every project meets or exceeds current building codes and safety standards.", icon: ClipboardCheck },
       { title: "Licensed & Insured", description: "Fully licensed professionals you can trust with your property.", icon: ShieldCheck },
     ]}
-    />
+    >
+      <FAQSection faqs={electricalFAQs} title="Electrical & Water Damage Prevention FAQs" />
+    </ServicePageLayout>
   </>
 );
 
