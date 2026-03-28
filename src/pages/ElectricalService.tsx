@@ -6,11 +6,11 @@ import { Zap, Droplets, ShieldCheck, Wrench, ClipboardCheck, AlertTriangle } fro
 const ElectricalService = () => (
   <>
     <Helmet>
-      <title>Electrical Services Houston TX | Water Damage Prevention | CBRS Group</title>
-      <meta name="description" content="Electrical services in Houston, TX. Water heater connections, sump pump installation, panel upgrades & leak detection systems. Call (832) 608-0535." />
+      <title>Electrician Houston TX | Sump Pump & Water Heater Repair | CBRS Group</title>
+      <meta name="description" content="Houston electrician specializing in water damage prevention. Sump pump installation, water heater repair, panel upgrades & leak detection systems. Licensed & insured. Call (832) 608-0535." />
       <link rel="canonical" href="https://restoration.cbrsgroup.com/services/electrical" />
-      <meta property="og:title" content="Electrical Services Houston TX | CBRS Group" />
-      <meta property="og:description" content="Electrical services in Houston, TX. Water heater connections, sump pump installation, panel upgrades & leak detection systems." />
+      <meta property="og:title" content="Electrician Houston TX | Sump Pump & Water Heater Repair" />
+      <meta property="og:description" content="Houston electrician. Sump pump installation, water heater repair, panel upgrades & leak detection systems. Call (832) 608-0535." />
       <meta property="og:url" content="https://restoration.cbrsgroup.com/services/electrical" />
     </Helmet>
     <ServicePageLayout

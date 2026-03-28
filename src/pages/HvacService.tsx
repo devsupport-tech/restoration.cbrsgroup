@@ -6,11 +6,11 @@ import { Thermometer, Droplets, ShieldCheck, Wrench, ClipboardCheck, AlertTriang
 const HvacService = () => (
   <>
     <Helmet>
-      <title>HVAC Services Houston TX | Water Damage Prevention | CBRS Group</title>
-      <meta name="description" content="HVAC services in Houston, TX. Condensate line repair, drain pan replacement, preventative maintenance to prevent water damage. Call (832) 608-0535." />
+      <title>HVAC Contractor Houston TX | AC Repair & Water Damage Prevention | CBRS Group</title>
+      <meta name="description" content="Houston HVAC contractor preventing water damage. AC condensate line repair, drain pan replacement, frozen coil repair & preventative maintenance. Licensed & insured. Call (832) 608-0535." />
       <link rel="canonical" href="https://restoration.cbrsgroup.com/services/hvac" />
-      <meta property="og:title" content="HVAC Services Houston TX | CBRS Group" />
-      <meta property="og:description" content="HVAC services in Houston, TX. Condensate line repair, drain pan replacement, preventative maintenance to prevent water damage." />
+      <meta property="og:title" content="HVAC Contractor Houston TX | AC Repair & Water Damage Prevention" />
+      <meta property="og:description" content="Houston HVAC contractor. AC condensate line repair, drain pan replacement & preventative maintenance. Call (832) 608-0535." />
       <meta property="og:url" content="https://restoration.cbrsgroup.com/services/hvac" />
     </Helmet>
     <ServicePageLayout

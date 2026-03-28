@@ -6,11 +6,11 @@ import { Home, Droplets, ShieldCheck, Wrench, ClipboardCheck, AlertTriangle } fr
 const RoofingService = () => (
   <>
     <Helmet>
-      <title>Roofing Services Houston TX | Storm Damage Repair | CBRS Group</title>
-      <meta name="description" content="Professional roofing services in Houston, TX. Storm damage repair, roof leak detection, full replacement & preventative maintenance. Call (832) 608-0535." />
+      <title>Roofing Contractor Houston TX | Storm Damage & Roof Leak Repair | CBRS Group</title>
+      <meta name="description" content="Houston roofing contractor specializing in storm damage repair. Emergency roof tarping, hail damage repair, leak detection, roof replacement. Insurance claims assistance. Free estimates. Call (832) 608-0535." />
       <link rel="canonical" href="https://restoration.cbrsgroup.com/services/roofing" />
-      <meta property="og:title" content="Roofing Services Houston TX | CBRS Group" />
-      <meta property="og:description" content="Professional roofing services in Houston, TX. Storm damage repair, roof leak detection, full replacement & preventative maintenance." />
+      <meta property="og:title" content="Roofing Contractor Houston TX | Storm Damage & Roof Leak Repair" />
+      <meta property="og:description" content="Houston roofing contractor. Storm damage repair, hail damage, leak detection & roof replacement. Insurance claims help. Call (832) 608-0535." />
       <meta property="og:url" content="https://restoration.cbrsgroup.com/services/roofing" />
     </Helmet>
     <ServicePageLayout

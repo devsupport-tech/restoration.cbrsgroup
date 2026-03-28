@@ -6,11 +6,11 @@ import { Flame, Wind, Home, Wrench, ShieldCheck, ClipboardCheck } from "lucide-r
 const FireRestorationService = () => (
   <>
     <Helmet>
-      <title>Fire Damage Restoration Houston TX | CBRS Group</title>
-      <meta name="description" content="Expert fire and smoke damage restoration in Houston, TX. Board-up, debris removal, structural repair, odor removal & full rebuild services. Call (832) 608-0535." />
+      <title>Fire Damage Contractor Houston TX | 24/7 Smoke & Fire Restoration | CBRS Group</title>
+      <meta name="description" content="Houston's trusted fire damage contractor. 24/7 emergency fire restoration, smoke damage cleanup, soot removal, odor elimination & complete rebuilds. Licensed & insured. Free estimates. Call (832) 608-0535." />
       <link rel="canonical" href="https://restoration.cbrsgroup.com/services/fire-restoration" />
-      <meta property="og:title" content="Fire Damage Restoration Houston TX | CBRS Group" />
-      <meta property="og:description" content="Expert fire and smoke damage restoration in Houston, TX. Board-up, debris removal, structural repair, odor removal & full rebuild services." />
+      <meta property="og:title" content="Fire Damage Contractor Houston TX | 24/7 Smoke & Fire Restoration" />
+      <meta property="og:description" content="Houston's trusted fire damage contractor. 24/7 fire restoration, smoke cleanup, soot removal & complete rebuilds. Call (832) 608-0535." />
       <meta property="og:url" content="https://restoration.cbrsgroup.com/services/fire-restoration" />
     </Helmet>
     <ServicePageLayout

@@ -6,11 +6,11 @@ import { Droplets, Home, Wind, Wrench, ShieldCheck, ClipboardCheck } from "lucid
 const RestorationService = () => (
   <>
     <Helmet>
-      <title>Water Damage Restoration Houston TX | CBRS Group</title>
-      <meta name="description" content="Professional water damage restoration in Houston, TX. 24/7 emergency water extraction, structural drying, mold remediation & full rebuild services. Call (832) 608-0535." />
+      <title>Water Damage Restoration Houston TX | 24/7 Emergency Flood Repair | CBRS Group</title>
+      <meta name="description" content="Houston's #1 water damage restoration company. 24/7 emergency water extraction, flood cleanup, burst pipe repair, mold remediation & full rebuilds. Licensed & insured. Free estimates. Call (832) 608-0535." />
       <link rel="canonical" href="https://restoration.cbrsgroup.com/services/restoration" />
-      <meta property="og:title" content="Water Damage Restoration Houston TX | CBRS Group" />
-      <meta property="og:description" content="Professional water damage restoration in Houston, TX. 24/7 emergency water extraction, structural drying, mold remediation & full rebuild services." />
+      <meta property="og:title" content="Water Damage Restoration Houston TX | 24/7 Emergency Flood Repair" />
+      <meta property="og:description" content="Houston's #1 water damage restoration company. 24/7 emergency water extraction, flood cleanup, mold remediation & full rebuilds. Call (832) 608-0535." />
       <meta property="og:url" content="https://restoration.cbrsgroup.com/services/restoration" />
     </Helmet>
     <ServicePageLayout
